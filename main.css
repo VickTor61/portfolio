@@ -1,0 +1,292 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    body {
+        font-size: 1.6rem;
+    }
+    .heading {
+        background-image: url(image/image/imgbck1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .heading-logo {
+        position: relative;
+        left: 5rem;
+        top: 1rem;
+    }
+    .heading-text {
+        float: right;
+        top: -7rem;
+        position: relative;
+        margin-right: 7rem;
+        font-size: 1.4rem;
+    }
+    .texts {
+        top: -12rem;
+        list-style: none;
+    }
+    .text-lis {
+        display: inline-block;
+        padding-left: 2rem;
+        
+    }
+
+    .a-text:link,
+    .a-text:visited {
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: ease-in-out .4s;
+
+    }
+    .a-text:hover,
+    .a-text:active {
+        color: #EAF6F6;
+        background: rgba(0,0,0,.85);
+        border-radius: 3px;
+        padding: 1rem 2rem;  
+        transform: translateY(3px);
+    }
+
+    .job-container {
+        width: 32rem;
+        height: 30rem;
+        left: 15rem;
+        position: relative;
+        top: 8rem;
+        color: rgba(0,0,0, 1.4);
+        font-size: 1.8rem;
+    }
+    .container-header {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .container-text {
+        line-height: 1.6;
+        font-family: cursive
+
+    }
+    .container-btn {
+        background-color: rgb(6, 127, 6);
+        position: relative;
+        top: 2rem;
+        padding: 1rem 6rem;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .header-bottom {
+        position: relative;
+        top:12rem;
+        height: 20%;
+        background-image: linear-gradient( rgba(0,0,0,.85),transparent);
+    }
+    .header-bottom-text{
+        padding-top: 1rem;
+        font-size: 3.5rem;
+        color: #fff;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .header-bottom__ul {
+        margin: 0 auto;
+        text-align: center;
+        color: azure;
+        font-size: 1.9rem;
+    }
+    .header-bottom__lis {
+        display: inline-block;
+        padding-left: 3rem;
+        margin-top: 1.5rem;
+    }
+    .main {
+        height: 70vh;
+        background-color: rgba(0, 0, 0, .07);
+    
+    
+        /* overflow: hidden; */
+    }
+    .main-text {
+        text-align: center;
+        font-size: 4rem;
+        color: rgba(0,0,0,.5);
+        font-weight: 700;
+    }
+    .main-images {
+        top:8rem;
+        position: relative;
+        margin:0 auto;
+        width: fit-content;
+    }
+    .main-imgs {
+        display: inline-block;
+        margin: 5rem auto 5rem;
+        width: fit-content;
+    }
+    .main-arrow {
+        margin-right: 4rem;
+        margin-bottom: 4rem;
+        height: 8rem;
+    }
+    .main-img-text {
+        width: 75%;
+        text-align: center;
+        color: rgba(0,0,0,.5);
+    }
+    .main-2-image {
+        background-image: url(image/image/imgbck3.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        text-align: center;
+        top: 2rem;
+    }
+    .main-contents{
+    position: relative;
+    top:5.5rem;
+    font-size: 2rem;
+    }
+    .main-2-text {
+    width: 30%;
+    margin: 4rem auto 2rem;
+    font-size: 1.4rem;
+    }
+    .main-2-position {
+        display: block;
+    }
+    .container-3 {
+    height: 55vh;
+    background-color: rgba(0, 0, 0, .07);
+    }
+    .container-images {
+        top: 2.5rem;
+        position: relative;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .container-img {
+        margin: 0 2rem;
+    }
+    .footer-container {
+        position: relative;
+        background: #000;
+        border-top: 3px solid  rgb(6, 127, 6);
+        height: 8rem;
+    }
+    .footer-lis {
+        margin:3rem 0 1rem 5rem ;
+    }
+    .footer-links {
+        color: #EAF6F6;
+        text-decoration: none;
+        padding-left: 2rem;
+
+    }
+    .footer-links:hover {
+        background-image: linear-gradient(360deg,rgb(81, 255, 0),rgb(128, 0, 100) );
+        color:#bfeebf;
+        border-radius: 3px;
+        padding: 1rem 1rem;
+        transition: ease-in .4s;
+        transform: translateY(-.4rem);
+    }
+    .header-2 {
+       background-image:linear-gradient(200deg, #f4c4f3, #fc67fa) ;
+       height: 130vh;
+    
+}
+.picture-text {
+    text-align: center;
+    color: rgb(254 254 254);
+    position: absolute;
+    font-family: cursive;
+    top: 18rem;
+    left: 9rem;
+    font-size: 1.8rem;
+}
+.b {
+    position: relative;
+    top: 4rem;
+    left: 3rem;
+    background-image: url(../image/image/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 70%;
+    border-radius: 3rem;
+    display: inline-block;
+    margin-right: 2rem;
+}
+.b2 {
+ color: #fff;
+ text-align: center;
+ position: relative;
+ top: 10rem;
+
+ 
+}
+.btn-b {
+    height: 7rem;
+    width: 7rem;
+    background-color: #fff;
+    box-shadow: 1px 3px 4px rgba(240, 135, 50, 0.822);
+    transition: ease-in .4s;
+    top: 24rem;
+    left: 19rem;
+    position: absolute;
+    border-radius: 100rem;
+}
+.btn-b:hover {
+    transform: translateY(2px);
+}
+.b3 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    top: 2.3rem;
+    
+}
+.container-3 {
+    background-image: linear-gradient(140deg, rgba(0,0,0,.8), rgba(0,0,0,.8)), url(image/image/pic4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    overflow: hidden;
+}
+.box-3 {
+    position: relative;
+}
+.container-3-text {
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    top: 25rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.button-class {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    background-color: rgb(180, 37, 92);
+    top: 4rem;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+}
