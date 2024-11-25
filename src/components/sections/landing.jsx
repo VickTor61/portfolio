@@ -1,4 +1,6 @@
 import Portfolio from "../Portfolio";
+import ProfileImage from "../ProfileImage";
+import ProfileUrl from '../../assets/images/profile.jpg'
 
 const Landing = () => (
   <div className="bg-gradient-to-bl from-slate-600 via-zinc-500 to-zinc-800 mt-4">
@@ -25,10 +27,10 @@ const Landing = () => (
           </p>
         </div>
       </div>
-      <div className="bg-gradient-to-r from-slate-900 to-slate-700 w-full">
-        {" "}
-        <div>
-          <img src={"/images/facelift.jpg"} alt="image" className="" />
+      <div className="bg-gradient-to-r from-slate-900 to-slate-700 w-full h-[35rem] flex justify-center items-center">
+      {" "}
+        <div className="h-full">
+          <ProfileImage url={ProfileUrl}/>
         </div>
       </div>
     </div>
