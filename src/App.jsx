@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <div className="relative h-screen ">
-      <div className="w-[1356px] mx-auto">
+      <div className="w-[1356px] mx-auto px-auto">
         <nav className="fixed w-[1356px] left-1/2 transform -translate-x-1/2 h-20 bg-gray-900 px-10 text-white shadow-xl z-10 flex items-center justify-between">
           <div className="flex justify-between flex-1">
             <button
@@ -103,7 +103,7 @@ const App = () => {
         </nav>
 
         <main className="pt-20 w-full bg-gradient-to-tl from-black via-gray-900 to-black ">
-          {[...sections.slice(0, 5)].map((section, index) => (
+          {sections.map((section, index) => (
             <div ref={section.ref} key={index} className="w-11/12 mx-auto">
               {section.component}
             </div>
