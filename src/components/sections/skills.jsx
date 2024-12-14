@@ -33,18 +33,18 @@ const Skills = () => {
     <div className="bg-gradient-to-bl via-zinc-500">
       <div className="text-white px-6 py-8">
         <div className="grid grid-cols-2">
-          <div>
+          <div className="">
             <h1 className="text-3xl font-extrabold space-x-0 text-white">
               SKILLS
             </h1>
-            <div className="border-6 w-[14rem] my-3 rounded"></div>
+            <div className="border-6 max-w-[14rem] my-3 mr-4 rounded"></div>
           </div>
 
           <div>
             <h1 className="text-3xl font-extrabold space-x-0 text-white">
               TOOLKITS
             </h1>
-            <div className="border-6 w-[14rem] my-3 rounded"></div>
+            <div className="border-6 max-w-[14rem] my-3 mr-4 rounded"></div>
           </div>
         </div>
 

@@ -73,7 +73,7 @@ const App = () => {
   return (
     <div className="relative h-screen">
       <div className="max-w-[1300px] mx-auto relative">
-        <nav className="fixed max-w-[1300px] mx-auto h-20 bg-gray-900 text-white shadow-xl z-10 flex items-center justify-between top-0 left-0 right-0 px-14">
+        <nav className="fixed max-w-[1300px] mx-auto h-20 bg-gray-900 text-white shadow-xl z-10 flex items-center justify-between top-0 left-0 right-0 px-2">
           <div className="md:hidden mr-4 cursor-pointer">
             <IconButton onClick={() => setIsMenuOpen(true)}>
               <MenuIcon className=" text-white" />

@@ -14,7 +14,7 @@ const About = () => (
           </div>
       </div>
 
-      <div className="bg-gradient-to-r from-slate-900 to-slate-700 md:w-1/2 mx-auto">
+      <div className="bg-gradient-to-r from-slate-900 to-slate-700 md:w-1/2 mx-auto py-4 px-6">
         <h1 className="text-3xl font-extrabold space-x-0 text-white">
           ABOUT ME
         </h1>
