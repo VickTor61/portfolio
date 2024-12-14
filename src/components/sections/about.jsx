@@ -1,17 +1,20 @@
 import Portfolio from "../Portfolio";
 import ProfileImage from "../ProfileImage";
-import ProfileUrl from '../../assets/images/profile.jpg'
-
+import ProfileUrl from "../../assets/images/profile.jpg";
 
 const About = () => (
   <div className="bg-gradient-to-bl from-slate-600 via-zinc-500 to-zinc-200 ">
-    <div className="flex justify-between text-white h-full">
-      <div className="w-full flex flex-col items-center">
-        <div className="h-[37.5rem]">
-          <ProfileImage url={ProfileUrl}/>
-        </div>
+    <div className="md:flex md:justify-between text-white">
+        <div className="hidden md:flex ml-3 justify-center items-center md:w-1/2">
+          {" "}
+          <div className="">
+            <div className=" p-4 md:p-0">
+              <ProfileImage url={ProfileUrl} />
+            </div>
+          </div>
       </div>
-      <div className="bg-gradient-to-r from-slate-900 to-slate-700 w-full h-full p-8">
+
+      <div className="bg-gradient-to-r from-slate-900 to-slate-700 md:w-1/2 mx-auto">
         <h1 className="text-3xl font-extrabold space-x-0 text-white">
           ABOUT ME
         </h1>

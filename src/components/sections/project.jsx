@@ -9,23 +9,71 @@ import { ArrowRight } from "@mui/icons-material";
 
 const Project = () => (
   <div className="bg-gradient-to-r from-slate-900 to-slate-800 w-full">
-    <ProjectImage name={'Lead Generation'} url={LeadGenerationUrl} />
-    <ProjectImage name={'Email Management'} url={EmailManagementUrl} />
-    <ProjectImage name={'Minute of meeting'} url={MinuteOfMeetingUrl} />
-    <ProjectImage name={'Travel Itinery'} url={TravelItineryUrl} />
+    <ProjectImage name={"Lead Generation"} url={LeadGenerationUrl} />
+    <ProjectImage name={"Email Management"} url={EmailManagementUrl} />
+    <ProjectImage name={"Minute of meeting"} url={MinuteOfMeetingUrl} />
+    <ProjectImage name={"Travel Itinery"} url={TravelItineryUrl} />
 
     <div className="mb-4">
-    <div className="flex items-center">
-    <h1 className="uppercase font-bold text-5xl pl-6 py-10 text-white flex-auto">
-      Content Creation and branding
-    </h1>
-     <a href={'https://www.instagram.com/p/CngohGsN3ew/?igsh=MWtmYnducmE5dGFnag=='} className="text-green-300 font-bold text-xl pl-6 py-10 mr-6">View Content<ArrowRight /></a>
+      <div className="flex items-center">
+        <h1 className="uppercase font-bold text-2xl lg:text-5xl pl-6 py-10 text-white flex-auto">
+          Content Creation and branding
+        </h1>
+        <a
+          href={
+            "https://www.instagram.com/p/CngohGsN3ew/?igsh=MWtmYnducmE5dGFnag=="
+          }
+          className="text-green-300 font-bold text-xl pl-6 py-10 mr-6"
+        >
+          View Content
+          <ArrowRight />
+        </a>
+      </div>
+      <div className="grid grid-cols-2 gap-6">
+        <img
+          src={ContentBrandingUrl1}
+          alt="content_brand"
+          className="h-[40rem]"
+        />
+        <img
+          src={ContentBrandingUrl2}
+          alt="content_brand"
+          className="h-[40rem] w-full"
+        />
+      </div>
+
+      <div className="">
+        <h1 className="uppercase font-bold text-2xl lg:text-5xl py-6 text-white flex-auto">
+          Testimonials
+        </h1>
+        <p>
+          Happiness Abiye Ibrahim has been an invaluable part of the Prominence
+          Promise Impact Network (PPIN) Ltd. <br /> She brings dedication, a
+          strong work ethic, and a positive attitude to everything she does. Her
+          ability to manage tasks efficiently and keep things running smoothly
+          is highly commendable. <br /> Happiness is one of my trusted team
+          members, she's organized, reliable, and always willing to go the extra
+          mile to ensure that everything is in order. Whether it's handling
+          administrative tasks, coordinating schedules, or assisting team
+          members, she does it all with a smile and a sense of responsibility.
+          Her presence adds a sense of calm and assurance to the team, making
+          her a true asset to PPIN.
+          <br /><br/>
+          Prominence Promise,
+          <br /> Founder Prominence Promise Impact Network <br />{" "}
+          prominenceconcepts@gmail.com
+          <br />
+          <br />
+          I've known Abiye for the past four years now and I've been privileged
+          to work with her on so many occasions.<br/> She's is a lady who is committed to
+          learning, helping people, and volunteering.<br/> As an Administrative
+          Assistant, she has made my work easier, she always understand the task
+          and don't hesitate to carry it out to religiously.<br/> She's your go-to
+          person for your Virtual Assistant - with her, you are in safe hands.<br/><br/>
+          Tobi Light
+        </p>
+      </div>
     </div>
-    <div className="grid grid-cols-2 gap-6">
-      <img src={ContentBrandingUrl1} alt="content_brand" className="h-[40rem]" />
-      <img src={ContentBrandingUrl2} alt="content_brand" className="h-[40rem] w-full" />
-    </div>
-  </div>
   </div>
 );
 

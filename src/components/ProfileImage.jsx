@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const ProfileImage = ({ url }) => (
-    <img src={url} alt="image" className="w-auto h-full object-contain" />
+    <img src={url} alt="image" className="w-[30rem] h-full object-contain" />
 );
 
 ProfileImage.propTypes = {

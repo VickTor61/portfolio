@@ -15,9 +15,9 @@ const Experience = () => (
         <div>
           <div className="h-full">
             <div className="flex items-center">
-              <div className="text-8xl font-bold ">2021</div>
+              <div className="md:text-3xl lg:text-6xl font-bold ">2021</div>
               <div className="font-bold border-6 mx-4 px-3"></div>
-              <div className="text-8xl font-bold">2024</div>
+              <div className="md:text-3xl lg:text-6xl font-bold">2024</div>
             </div>
           </div>
         </div>
